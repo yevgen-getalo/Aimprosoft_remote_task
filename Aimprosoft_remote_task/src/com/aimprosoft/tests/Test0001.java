@@ -38,7 +38,7 @@ public class Test0001 {
 	public void test0001() throws Exception {
 		driver.get(baseUrl + "/?gfe_rd=cr&ei=Oy7xVpu6F6Ot8weTmYGYAg&gws_rd=ssl");
 		driver.findElement(By.id("lst-ib")).clear();
-		driver.findElement(By.id("lst-ib")).sendKeys("robohunter");
+		driver.findElement(By.id("lst-ib")).sendKeys("robo");
 		driver.findElement(By.name("btnG")).click();
 		for (int i = 0; i < 10; i++) {
 			if (existsElement(By.linkText("Robohunter: Роботы в России и СНГ. Трудоустройство в ..."))) {
